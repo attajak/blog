@@ -74,3 +74,15 @@ minima:
     - { platform: twitter,        user_url: "https://twitter.com/attajak" }
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
     - { platform: youtube,        user_url: "https://www.youtube.com/@attajak" }
+
+# include:
+  
+exclude:
+  - _site
+  - .jekyll-cache
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - .replit
+  - replit.nix
