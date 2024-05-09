@@ -1,2 +1,2 @@
-# blog
-Welcome to my blog
+# Blog
+Welcome to my blog.

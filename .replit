@@ -1,0 +1,24 @@
+run = "bundle exec jekyll serve --host=0.0.0.0"
+entrypoint = "README.md"
+hidden = [".bundle"]
+
+[packager]
+language = "ruby"
+
+  [packager.features]
+  # Enables the package search sidebar
+  packageSearch = true
+  # Enabled package guessing
+  guessImports = true
+  
+# Per language configuration: language.<lang name> 
+[languages.ruby]
+# The glob pattern to match files for this programming language
+pattern = "**/*.rb"
+
+[nix]
+channel = "stable-23_11"
+
+[[ports]]
+localPort = 4000
+externalPort = 80
