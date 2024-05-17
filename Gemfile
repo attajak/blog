@@ -2,16 +2,16 @@
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+gem "jekyll"
 
-gem "minima", "~> 3.0.dev", :github => "jekyll/minima", :branch => "master"
+gem "minima", :github => "jekyll/minima", :branch => "master"
 
-# gem "github-pages", "~> 231", :group => :jekyll_plugins
+# gem "github-pages", :group => :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17.0"
-  gem "jekyll-seo-tag", "~> 2.8"
-  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
 end
 
-gem "jekyll-compose", "~> 0.12.0", group: [:jekyll_plugins]
+gem "jekyll-compose", group: [:jekyll_plugins]
