@@ -60,7 +60,7 @@ minima:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
     - { platform: facebook,       user_url: "https://www.facebook.com/attajak" }
-  #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+    - { platform: flickr,         user_url: "attajakz" }
     - { platform: github,         user_url: "https://github.com/attajak" }
   #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
     - { platform: instagram,      user_url: "https://www.instagram.com/attajak" }
@@ -70,8 +70,8 @@ minima:
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
     - { platform: telegram,       user_url: "https://t.me/attajak" }
-    - { platform: twitter,        user_url: "https://twitter.com/attajak" }
-  #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
+  #  - { platform: twitter,        user_url: "https://twitter.com/attajak" }
+    - { platform: x,              user_url: "attajak" }
     - { platform: youtube,        user_url: "https://www.youtube.com/@attajak" }
 
 # include:
