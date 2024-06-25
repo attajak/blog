@@ -15,3 +15,9 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-compose", group: [:jekyll_plugins]
+
+gem "webrick"
+
+gem "tzinfo-data"
+
+gem "faraday-retry"
