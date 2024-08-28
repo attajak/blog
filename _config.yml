@@ -82,6 +82,7 @@ minima:
 exclude:
   - _site
   - .jekyll-cache
+  - .jekyll-metadata
   - .sass-cache
   - Gemfile
   - Gemfile.lock
