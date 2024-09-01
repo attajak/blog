@@ -87,6 +87,12 @@ exclude:
   - .sass-cache
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package-lock.json
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - .bundle
   - .replit
   - replit.nix
