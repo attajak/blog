@@ -3,8 +3,8 @@ layout: {{ layout }}
 title: "{{ title }}"
 date: {{ date }}
 description:
-images:
-categories:
+image:
+category:
 tags:
 published: true
 sitemap: false
