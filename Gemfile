@@ -40,4 +40,7 @@ gem "jekyll-compose", group: [:jekyll_plugins]
 
 gem "faraday-retry"
 
-gem "webrick"
+gem "octopress", "~> 3.0"
+
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.2.0"

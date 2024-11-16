@@ -8,3 +8,11 @@ _site
 .bundle
 vendor
 Gemfile.lock
+
+# Octopress
+_deploy.yml
+
+# JavaScript
+node_modules
+package-lock.json
+jsconfig.json
