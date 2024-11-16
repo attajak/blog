@@ -2,8 +2,10 @@
 layout: {{ layout }}
 title: "{{ title }}"
 date: {{ date }}
+description:
+images:
 categories:
-  - category
 tags:
-  - tag
+published: true
+sitemap: false
 ---
