@@ -119,17 +119,17 @@ page_template: page
 draft_template: draft
 
 # Jekyll compose
-jekyll_compose:
-  default_front_matter:
-    drafts:
-      description:
-      image:
-      category:
-      tags:
-    posts:
-      description:
-      image:
-      category:
-      tags:
-      published: true
-      sitemap: false
+#jekyll_compose:
+#  default_front_matter:
+#    drafts:
+#      description:
+#      image:
+#      category:
+#      tags:
+#    posts:
+#      description:
+#      image:
+#      category:
+#      tags:
+#      published: true
+#      sitemap: false
