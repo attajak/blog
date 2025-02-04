@@ -1,10 +1,10 @@
 run = "bundle exec jekyll serve --host='0.0.0.0' --baseurl='/'"
 entrypoint = "README.md"
 hidden = [".bundle"]
-modules = ["ruby-3.1"]
+modules = ["ruby-3.2"]
 
 [nix]
-channel = "stable-24_05"
+channel = "stable-24_11"
 
 [[ports]]
 localPort = 4000
