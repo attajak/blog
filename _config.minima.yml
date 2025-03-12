@@ -1,19 +1,14 @@
-url: https://attajak.github.io
-baseurl: /blog
-permalink: pretty
-
-title: Attajak's blog
+title: Your awesome title
 author:
-  name: attajak
-  email: janrak@gmail.com
+  name: GitHub User
+  email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: |-
-  ชื่อ คิง
-  เกิด ๘ สิงหาฯ
-  เลือดกรุ๊ป เอ
-  ชอบดูหนัง ฟังเพลง เล่นเกม
+description: >
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
 # Build settings
 
@@ -23,14 +18,12 @@ theme: minima
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
 # add a line comment on "theme: minima" above.
-#remote_theme: jekyll/minima@master
+#remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-compose
-  - jekyll-remote-theme
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
@@ -50,16 +43,14 @@ minima:
   nav_pages:
     - index.md
     - about.md
-    - contact.md
 
   # Set to `true` to show excerpts on the homepage.
-  show_excerpts: true
+  #show_excerpts: false
 
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #date_format: "%b-%d-%Y"
-  date_format: "%d %b %Y"
 
   # Social Media Links
   # Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
@@ -68,75 +59,10 @@ minima:
   # * title    Tooltip rendered on hovering over icon.
   # * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   # * url      Full URL of social profile.
-  social_links:
-    - title: GitHub
-      icon: github
-      url: "https://github.com/attajak/"
-    - title: GitLab
-      icon: gitlab
-      url: "https://gitlab.com/attajak/"
-    - title: Facebook
-      icon: facebook
-      url: "https://facebook.com/attajak"
-    - title: X
-      icon: x-twitter
-      url: "https://x.com/attajak"
-
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
-
-jekyll_compose:
-  auto_open: true
-  default_front_matter:
-    drafts:
-      description:
-      image:
-      category:
-      tags:
-    posts:
-      description:
-      image:
-      category:
-      tags:
-      published: false
-      sitemap: false
-
-# Octopress
-# Default extension for new posts and pages
-post_ext: md # markdown
-page_ext: md # markdown
-
-# Default templates for posts and pages
-# Found in _templates/
-post_layout: post
-page_layout: page
-
-# Format titles with titlecase?
-titlecase: false
-
-# Change default template file (in _templates/)
-post_template: post
-page_template: page
-draft_template: draft
-
-include:
-  - _pages
-exclude:
-  - _site
-  - .jekyll-cache
-  - .jekyll-metadata
-  - .sass-cache
-  - Gemfile
-  - Gemfile.lock
-  - jsconfig.json
-  - node_modules/
-  - package-lock.json
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .bundle/
-  - .replit
-  - replit.nix
-  - _templates/
+  #social_links:
+  #  - title: Minima Theme repository at GitHub
+  #    icon: github
+  #    url: "https://github.com/jekyll/minima"
+  #  - title: Jekyll at X (formerly Twitter)
+  #    icon: x-twitter
+  #    url: "https://x.com/jekyllrb"
