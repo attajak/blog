@@ -12,6 +12,7 @@ Gemfile.lock
 
 # Octopress
 _deploy.yml
+.deploy
 
 # JavaScript
 node_modules

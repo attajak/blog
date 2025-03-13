@@ -9,7 +9,7 @@ author:
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: |-
+description: |
   ชื่อ คิง
   เกิด ๘ สิงหาฯ
   เลือดกรุ๊ป เอ
@@ -36,13 +36,13 @@ plugins:
 minima:
   # Minima skin selection.
   # Available skins are:
-  # classic	           Default, light color scheme.
-  # dark	             Dark variant of the classic skin.
-  # auto	             Adaptive skin based on the default classic and dark skins.
-  # solarized-light	   Light variant of solarized color scheme.
-  # solarized-dark	   Dark variant of solarized color scheme.
-  # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
+  # classic	      Default, light color scheme.
+  # dark              Dark variant of the classic skin.
+  # auto	      Adaptive skin based on the default classic and dark skins.
+  # solarized-light   Light variant of solarized color scheme.
+  # solarized-dark    Dark variant of solarized color scheme.
+  # solarized	      Adaptive skin for solarized color scheme skins.
+  skin: auto
 
   # If you want to link only specific pages in the site-navigation, use this and list
   # the `path` property (as represented via Liquid) of the pages in the order they should
@@ -53,7 +53,7 @@ minima:
     - contact.md
 
   # Set to `true` to show excerpts on the homepage.
-  show_excerpts: true
+  show_excerpts: false
 
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
@@ -77,27 +77,52 @@ minima:
       url: "https://gitlab.com/attajak/"
     - title: Facebook
       icon: facebook
-      url: "https://facebook.com/attajak"
+      url: "https://facebook.com/attajak/"
     - title: X
       icon: x-twitter
-      url: "https://x.com/attajak"
+      url: "https://x.com/attajak/"
+
+# Include & Exclude
+# include:
+exclude:
+  - _site
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - jsconfig.json
+  - node_modules/
+  - package-lock.json
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .bundle/
+  - .replit
+  - replit.nix
+  - _templates/
+  - bin
 
 sass:
   quiet_deps: true
   silence_deprecations: [import]
 
+# Jekyll compose
 jekyll_compose:
   auto_open: true
   default_front_matter:
     drafts:
       description:
       image:
-      category:
+      categories:
       tags:
+      published: false
+      sitemap: false
     posts:
       description:
       image:
-      category:
+      categories:
       tags:
       published: false
       sitemap: false
@@ -119,24 +144,3 @@ titlecase: false
 post_template: post
 page_template: page
 draft_template: draft
-
-include:
-  - _pages
-exclude:
-  - _site
-  - .jekyll-cache
-  - .jekyll-metadata
-  - .sass-cache
-  - Gemfile
-  - Gemfile.lock
-  - jsconfig.json
-  - node_modules/
-  - package-lock.json
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .bundle/
-  - .replit
-  - replit.nix
-  - _templates/
