@@ -30,7 +30,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-compose
-  - jekyll-remote-theme
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
