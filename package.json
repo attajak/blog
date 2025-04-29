@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Attajak's blog",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll server -D --bind='0.0.0.0' --baseurl='/' -otw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attajak/blog.git"
+  },
+  "keywords": [
+    "attajak",
+    "janrak",
+    "blog",
+    "github"
+  ],
+  "author": "attajak (https://github.com/attajak/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/attajak/blog/issues"
+  },
+  "homepage": "https://github.com/attajak/blog#readme"
+}
