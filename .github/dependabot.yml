@@ -10,10 +10,16 @@ updates:
     schedule:
       interval: "weekly"
     assignees:
-  		- "attajak"
+      - "attajak"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     assignees:
-  		- "attajak"
+      - "attajak"
+  - package-ecosystem: "gitmodules"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "attajak"
