@@ -17,7 +17,7 @@ updates:
       interval: "weekly"
     assignees:
       - "attajak"
-  - package-ecosystem: "gitmodules"
+  - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
       interval: "weekly"
