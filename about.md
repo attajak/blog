@@ -24,4 +24,4 @@ title: About
 
 ---
 
-![Attajak Janrak](/assets/images/attajak.jpg)
+![Attajak Janrak](/assets/images/attajak.png)

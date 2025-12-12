@@ -28,4 +28,4 @@ Outlook: | [Attajak at Outlook.com](mailto:attajak@outlook.com)
 
 ---
 
-![Attajak Janrak](/assets/images/attajak.jpg)
+![Attajak Janrak](/assets/images/attajak.png)
