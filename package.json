@@ -5,8 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "bin/jekyll build",
-    "serve": "bin/jekyll server -D -H 0.0.0.0 --baseurl /blog -otw"
+    "build": "bundle exec jekyll build",
+    "clean": "bundle exec jekyll clean",
+    "serve": "bundle exec jekyll serve -b /blog -D --future --unpublished -l -H localhost -I -o -t -w --profile"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
     "blog",
     "github"
   ],
-  "author": "attajak (https://github.com/attajak/)",
+  "author": {
+    "name": "attajak",
+    "email": "janrak@gmail.com",
+    "url": "https://github.com/attajak"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/attajak/blog/issues"
